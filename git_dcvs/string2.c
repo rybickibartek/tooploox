@@ -16,6 +16,8 @@ char *my_strcpy(char *t, char *s)
  
    while (*t++ = *s++);
 
+   printf("dupa!");
+
    return p;
 }
 
