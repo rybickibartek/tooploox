@@ -10,6 +10,18 @@ size_t my_wstrlen(const char *s)
    return (p - s);
 }
 
+wchar_t *my_wstrchr(wchar_t *ws, wchar_t wc)
+{
+   while (*ws) 
+   {
+      if (*ws == wc)
+      return ws;
+      ++ws;
+   }
+   return NULL;
+   
+}
+
 char *my_strcpy(char *t, char *s)
 {
    char *p = t;   
