@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-size_t my_w_strlen(const char *s)
+size_t my_w_123_strlen(const char *s)
 {
    char *p = s;
 
